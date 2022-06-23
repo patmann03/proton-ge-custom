@@ -287,7 +287,7 @@ This unofficial build isn't supported by GloriousEggroll nor Valve and wasn't te
 1. Clone this repo by executing:
 
 ```sh
-	git clone --recurse-submodules http://github.com/gloriouseggroll/proton-ge-custom
+	git clone -branch proton-ge-TWR2 --recurse-submodules http://github.com/patmann03/proton-ge-custom
 ```
 
 2. Drop any custom patches into patches/, then open patches/protonprep-valve-staging.sh and add a patch line for them under `#WINE CUSTOM PATCHES` in the same way the others are done.
